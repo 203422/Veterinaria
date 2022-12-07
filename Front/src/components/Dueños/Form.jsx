@@ -11,13 +11,25 @@ function Form({ agregar }) {
         if (!nuevoDuenio.nombre || !nuevoDuenio.direccion || !nuevoDuenio.telefono) {
             alert("Campos vacios")
             return;
+        } else {
+            agregar(nuevoDuenio);
         }
+        handleReset();
 
-        agregar(nuevoDuenio);
     }
 
     const handleChange = (event) => {
         setNuevoDuenio({ ...nuevoDuenio, [event.target.name]: event.target.value })
+    }
+
+    const aux = {
+        nombre: "",
+        direccion: "",
+        telefono: ""
+    }
+
+    const handleReset = (e) => {
+        setNuevoDuenio(aux);
     }
 
 

@@ -11,4 +11,6 @@ public interface UsuarioDao {
     void eliminar(int id);
 
     void registrar(Usuario usuario);
+
+    void actualizar(Usuario usuario);
 }

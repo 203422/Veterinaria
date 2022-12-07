@@ -1,4 +1,4 @@
-function Tabla({ duenos, eliminar }) {
+function Tabla({ duenos, eliminar, actualizar }) {
 
     return (
         <div>
@@ -19,7 +19,7 @@ function Tabla({ duenos, eliminar }) {
                             <td>{dueno.telefono}</td>
 
                             <td>
-                                <button>Editar</button>
+                                <button >Editar</button>
                                 <button onClick={ () => eliminar(dueno.id)} > Eliminar</button>
                             </td>
                         </tr>

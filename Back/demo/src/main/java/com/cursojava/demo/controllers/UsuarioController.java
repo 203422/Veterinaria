@@ -48,6 +48,11 @@ public class UsuarioController {
         usuarioDao.eliminar(id);
     }
 
+    @RequestMapping(value = "usuarios/{id}", method = RequestMethod.PUT)
+    public void actualizar(@RequestBody Usuario usuario) {
+        usuarioDao.actualizar(usuario);
+    }
+
     // @RequestMapping(value = "usuario2")
     // public Usuario editar() {
     // Usuario usuario = new Usuario();

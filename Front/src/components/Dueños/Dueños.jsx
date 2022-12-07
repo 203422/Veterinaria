@@ -40,15 +40,24 @@ function Dueño() {
         agregarDuenio(peticion);
     }
 
+    const actualizar = (datos) => {
+
+        const peticion = {
+            method: 'POST',
+            body: JSON.stringify(datos),
+            headers: {
+                'Acept': 'application/json',
+                "Content-type": "application/json"
+            }
+        } 
+        
+        actualizarDuenio(peticion);
+    }
+
     const getDuenios = async ()  => {
         const dato = await fetch('http://localhost:8080/usuarios')
         const duenos =   await dato.json()
         setDueno(duenos)
-    }
-
-    const eliminarDuenio = async(peticion, id) => {
-        const dato = await fetch('http://localhost:8080/usuarios/' + id, peticion)
-        getDuenios()
     }
 
     const agregarDuenio = async(peticion) => {
@@ -56,10 +65,19 @@ function Dueño() {
         getDuenios()
     }
 
+    const eliminarDuenio = async(peticion, id) => {
+        const dato = await fetch('http://localhost:8080/usuarios/' + id, peticion)
+        getDuenios()
+    }
+
+    const actualizarDuenio = async(peticion, id) => {
+        const dato = await fetch('http://localhost:8080/usuarios/' + id, peticion)
+    }
+
     return (
         <div>
             <Form agregar={agregar} />
-            <Tabla duenos={dueno} eliminar={eliminar} />
+            <Tabla duenos={dueno} eliminar={eliminar} actualizar={actualizar} />
         </div>
     )
 }
