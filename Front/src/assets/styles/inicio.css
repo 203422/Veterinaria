@@ -1,0 +1,7 @@
+.imagen-inicio {
+    height: calc(100vh - 64px);
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

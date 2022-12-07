@@ -1,0 +1,33 @@
+.contenedor-nav {
+  background-color: #E60965;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.navegacion {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+
+.link:hover {
+  background-color: #FFA1C9;
+  color: #000000;
+}
+
+.contenedor-logo {
+  width: 20rem;
+  display: flex;
+}
+
+.logo {
+  width: 70%;
+}
