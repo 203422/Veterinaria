@@ -3,33 +3,8 @@ import Tabla from "./Tabla";
 
 function Form() {
 
-    const [duenio, setDuenio] = useState([{
-        'nombre': 'Alan',
-        'direccion': 'San Cristobal',
-        'telefono': 9671632128
-    }]);
-
     const onSubmit = (event) => {
         event.preventDefault();
-
-
-
-        // setDuenio([...duenio,
-        // {
-        //     'duenioId': 1,
-        //     'nombre': 'Alan',
-        //     'direccion': 'San Cristobal',
-        //     'telefono': 9671632128
-
-        // },
-        // {
-        //     'duenioId': 2,
-        //     'nombre': 'Raul',
-        //     'direccion': 'San Cristobal',
-        //     'telefono': 9671458525
-
-        // }
-        // ]);
 
     }
 

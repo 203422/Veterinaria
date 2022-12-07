@@ -2,8 +2,6 @@ package com.cursojava.demo.dao;
 
 import java.util.List;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
-
 import com.cursojava.demo.models.Usuario;
 
 public interface UsuarioDao {
@@ -12,5 +10,5 @@ public interface UsuarioDao {
 
     void eliminar(int id);
 
-
+    void registrar(Usuario usuario);
 }

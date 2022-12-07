@@ -23,8 +23,19 @@ function Dueño() {
             }
         }
 
-        eliminarDuenio(peticion, id);
-            
+        eliminarDuenio(peticion, id);   
+    }
+
+    const agregar = (id) => {
+        const peticion = {
+            method: 'POST',
+            headers: {
+                'Acept': 'application/json',
+                "Content-type": "application/json"
+            }
+        }
+
+        eliminarDuenio(peticion, id);   
     }
 
 
@@ -37,6 +48,10 @@ function Dueño() {
     const eliminarDuenio = async(peticion, id) => {
         const dato = await fetch('http://localhost:8080/usuarios/' + id, peticion)
         getDuenios()
+    }
+
+    const agregarDuenio = () => {
+
     }
 
     return (
