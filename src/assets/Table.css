@@ -1,0 +1,31 @@
+.sizeTable{
+
+    width: 85%;
+
+    margin-left: 10%;
+}
+.buttonE{
+    margin-left: 15%;
+    height: 30%;
+    background-color: #535bf2;
+}
+.color-t{
+    color: white;
+    background-color: #535bf2;
+}
+
+@media screen and (max-width: 1920px) and (max-width: 1367px){
+    .sizeTable{
+        width: 85%;
+        margin-left: 40%;
+    }
+    .buttonE{
+        margin-left: 15%;
+        height: 30%;
+        background-color: #535bf2;
+    }
+    .color-t{
+        color: white;
+        background-color: #535bf2;
+    }
+}

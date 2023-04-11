@@ -1,0 +1,253 @@
+.containerAside{
+    display: flex;
+    flex-direction: column;
+}
+.containerText{
+    height: 70%;
+}
+.cerrarSesion {
+    margin-top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cerrarSesion button {
+    width: 80%;
+}
+.background-d{
+    background-color: #c9c9c9;
+    width: 99%;
+    height: 100vh;
+}
+.container-menu {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #000000 !important; */
+}
+.menu-h{
+    background-color: white;
+    width: 20%;
+}
+.menu-d {
+    background-color: #c9c9c9;
+    width: 80%;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+}
+.title-{
+    font-size: 60px;
+}
+.menu-d .h2 {
+    margin-top:6% !important;
+    margin-left: 9%;
+    font-size: 36px;
+}
+
+.menu-d .h3 {
+    font-size: 36px;
+    margin-top: 1%;
+    margin-left: 35%;
+}
+
+.top-menu{
+    height: 30%;
+    width: 90%;
+    margin-left: 9%;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    width: 70%;
+}
+
+.image {
+    width: 30%;
+}
+
+.text p {
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.text span {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-style: oblique;
+    margin-left: 50%;
+}
+
+.content {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.diviss{
+    display: flex;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+}
+.head{
+    background-color: #4058F5;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-Perfil{
+    margin-top: 10%;
+    margin-left: 30%;
+
+    border-radius: 50%;
+    width: 40%;
+    height: 10%;
+}
+.saludo{
+    color: #5A5A5A;
+    font-size: 32px;
+    text-align: center;
+}
+.nameUser{
+    font-size: 32px;
+    text-align: center;
+}
+.title-w{
+    font-size: 18px;
+
+}
+.group1{
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.icons{
+    width: 8%;
+    height: 8%;
+    display: inline-block;
+}
+.par{
+    font-size: 18px;
+    margin-left: 5px;
+    color: #5A5A5A;
+    display: inline-block;
+}
+.cent{
+    background-color: red ;
+
+}
+.padding{
+    margin-left: 0px;
+}
+.options{
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 90vh;
+}
+.opciones{
+    font-size: 20px;
+    border: none;
+    background: none;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    font-weight: bold;
+    color: #5A5A5A;
+    /* display: inline-block; */
+}
+.opciones2{
+    font-size: 20px;
+    margin-top: 18%;
+    margin-left: 5%;
+    color: #5A5A5A;
+    display: inline-block;
+}
+.lineaH{
+    width: 92%;
+    margin-left: 8%;
+}
+
+.size-card{
+    margin-left: 10%;
+    width: 18%;
+    height: 180px;
+}
+
+.size-card2{
+    margin-left: 5%;
+    width: 18%;
+    height: 180px;
+}
+
+.img-cards{
+    margin-left: 17%;
+    width: 70%;
+    height: 75%;
+}
+
+.img-cards2{
+    margin-left: 17%;
+    width: 70%;
+    height: 75%;
+}
+
+.img-cards3{
+    margin-left: 17%;
+    width: 70%;
+    height: 63%;
+}
+
+.img-cards4{
+    margin-left: 17%;
+    width: 70%;
+    height: 61%;
+}
+
+.label{
+    text-align: center;
+    font-size: 15px;
+}
+
+.perfilHead{
+    margin-left: 80%;
+    margin-top: -5.5%;
+    border-radius: 50%;
+    width: 8%;
+    height: 70%;
+}
+
+.titulo{
+    text-align: center;
+
+    color: white;
+    font-size: 24px;
+}
+
+.menu-ini{
+    color: #5A5A5A;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 2.5%;
+}
+.FraseM{
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.FraseMR{
+    font-size: 20px;
+    margin-left: 40%;
+    display: inline-block;
+}
+.decor{
+    display: inline-block;
+    margin-top: -10%;
+    width: 15%;
+    height: 20%;
+    margin-left: 70%;
+}

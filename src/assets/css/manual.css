@@ -1,0 +1,82 @@
+.container-pro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.process-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.process {
+    cursor: pointer;
+}
+.form-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-perfil {
+    width: 50%;
+    margin-left: -16%;
+    margin-right: 5%;
+    align-items: center;
+    
+
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.form-perfil .image {
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.form-perfil .image #img-perfil {
+  margin-left: -3.65em;
+}
+.form-perfil img {
+    width: 10em;
+    margin-bottom: 0.75em;
+}
+
+
+.form-perfil .content {
+    width: 65%;
+    display: block;
+    margin-left: 6%;
+}
+.form-perfil .input{
+    width: 100%;
+}
+.form-perfil .inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.form-perfil .btns-form{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.form-perfil .boton-form{
+    display: block;
+    margin: auto;
+    padding: 0.25em 0.3em;
+
+    width: 11.5em;
+    height: 3.35em;
+
+    background-color: #646cff;
+    color: whitesmoke;
+    border-radius: 0.4em;
+    border: 0;
+
+    margin-bottom: 1em;
+}
